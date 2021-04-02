@@ -1,0 +1,291 @@
+{
+  "id": "2fc751cc-5536-491b-904c-cd3a77435a6a",
+  "version": "2.0",
+  "name": "Flipkart",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "2d181cc6-a80d-4b14-a7e5-00b214a9e80f",
+    "name": "HP_laptop_search",
+    "commands": [{
+      "id": "74744bf2-a10e-4a2d-ac08-ea28d92fe02a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d43a3097-98fa-4b0b-9cda-576f59100097",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1244x526",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07cf7e51-bdb3-4dfc-8abe-ef139dc16c1e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1mIbUg:nth-child(3) .kJjFO0",
+      "targets": [
+        ["css=.\\_1mIbUg:nth-child(3) .kJjFO0", "css:finder"],
+        ["xpath=(//img[@alt='Cat_Mob_HPW_POCO C3'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/div[3]/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e20869-ce56-476b-b22f-b40d2af0e1cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05af4562-2c4a-4305-a81e-f664793e6303",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hp laptop"
+    }, {
+      "id": "afa5476d-a3cb-4d5e-ae60-b097b607e66c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "64a566c6-019a-495a-9805-c5fadcf286e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_34RNph:nth-child(1)",
+      "targets": [
+        ["css=.\\_34RNph:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f55cfde-3b3a-44c0-81b3-1d2accf79a10",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "597ce98f-5cd2-4718-8e38-f4487f8f3993",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,285.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08f0cfb9-7326-4c19-8ed1-2a1f4386c362",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(2) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(2) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f0edd2-1872-49fb-83ad-f74685314784",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,78.66666412353516)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9be3db5f-08cd-4bab-a546-4e5d5170c527",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,455.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca5e814-8a62-4b61-8f61-cc55265feca0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,60.66666793823242)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a184b9f8-d096-4535-9065-52df5dabe060",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d715144e-1ab5-4838-b46c-06cebfa0a017",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c51760-1b97-4c2d-b2a0-766c312de205",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc4d6d5-1b92-44b3-a424-f81345ffe55f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='HP 14s Core i3 10th Gen - (8 GB/256 GB SSD/Windows 10 Home) 14s-cf3074TU Thin and Light Laptop']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ad8bdd-7936-4796-a361-bae357449d55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='HP 14s Core i3 10th Gen - (8 GB/256 GB SSD/Windows 10 Home) 14s-cf3074TU Thin and Light Laptop']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9628",
+      "windowTimeout": 2000
+    }, {
+      "id": "96ac5341-b858-4ad1-a08a-8dd6a48afb6b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "454a99e8-e0ea-4c9d-a58e-79d10adac9c1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9628}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37219623-7af9-4263-ae7e-7150e2164444",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1562b7e1-7d88-4aad-81e8-c05cba3e921b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='HP 14s Core i3 10th Gen - (8 GB/256 GB SSD/Windows 10 Home) 14s-cf3074TU Thin and Light Laptop']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d3d50a-6155-4f9a-91bd-1a957df1888b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a578224-4295-49d7-a895-b598606ba5c7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd1fa544-1857-4f41-a2e2-540675b3bd0f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9628}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee6bc2b-93eb-4e69-98d2-8b8d923485dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "769b11c1-ae12-4e5e-95b1-faa9b617bb3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e41a0a-3b32-43f4-ac6a-f04a760ebb10",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ihZ75k",
+      "targets": [
+        ["css=.ihZ75k", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,' BUY NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab21a1dc-eeeb-4bc1-8fd3-09c92e22bbbe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2d181cc6-a80d-4b14-a7e5-00b214a9e80f"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
